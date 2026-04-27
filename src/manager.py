@@ -1,22 +1,33 @@
 import csv
-from task import Task
+import os # Added for directory safety
+from task import Task 
 
 class TaskManager:
-    """Manages a collection of tasks using a Context Manager for file safety."""
+    """Manages tasks with data stored in the data/ directory."""
 
-    def __init__(self, filename="tasks.csv"):
+    def __init__(self, filename="data/tasks.csv"): # Updated path
         self.filename = filename
         self.tasks = []
+        
+        # Pro-Tip: Automatically create the data folder if it doesn't exist
+        if not os.path.exists("data"):
+            os.makedirs("data")
 
     def __enter__(self):
-        """Loads tasks from the CSV file when entering the 'with' block."""
+        """Loads tasks from the data/tasks.csv file."""
         try:
             with open(self.filename, mode='r', newline='') as file:
                 reader = csv.DictReader(file)
                 for row in reader:
-                    self.tasks.append(Task(row['title'], row['priority'], row['deadline'], row['status']))
+                    self.tasks.append(Task(
+                        row['title'], 
+                        row['priority'], 
+                        row['deadline'], 
+                        row['status']
+                    ))
         except FileNotFoundError:
-            pass  # Start with an empty list if no file exists
+            # Starts fresh if the file doesn't exist yet
+            pass 
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
