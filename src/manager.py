@@ -1,4 +1,5 @@
 import csv
+from task import Task
 
 class TaskManager:
     """Manages a collection of tasks using a Context Manager for file safety."""
@@ -37,4 +38,4 @@ class TaskManager:
         Algorithm: Sorts tasks by priority (Level 5 first).
         Satisfies the 16pt Logic/Processing requirement.
         """
-        self.tasks.sort(key=lambda x: x.priority, reverse=True) [cite: 98]
+        self.tasks.sort(key=lambda x: x.priority, reverse=True)

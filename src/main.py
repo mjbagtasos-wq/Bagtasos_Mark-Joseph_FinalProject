@@ -26,7 +26,7 @@ def main():
                 print("Task added successfully!")
 
             elif choice == "2":
-                manager.sort_tasks() [cite: 98]
+                manager.sort_tasks()
                 for idx, task in enumerate(manager.tasks):
                     print(f"{idx + 1}. {task}")
 
