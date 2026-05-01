@@ -1,15 +1,21 @@
+"""TaskManager class for CSV persistence and task sorting.
+
+This module provides the TaskManager context manager that automatically loads
+tasks from a CSV file on entry and saves them on exit. It also includes a
+sorting algorithm to order tasks by priority.
+"""
+
 import csv
-import os # Added for directory safety
-from task import Task 
+import os  # Added for directory safety
+from task import Task
 
 class TaskManager:
     """Manages tasks with data stored in the data/ directory."""
 
-    def __init__(self, filename="data/tasks.csv"): # Updated path
+    def __init__(self, filename="data/tasks.csv"):
         self.filename = filename
         self.tasks = []
         
-        # Pro-Tip: Automatically create the data folder if it doesn't exist
         if not os.path.exists("data"):
             os.makedirs("data")
 

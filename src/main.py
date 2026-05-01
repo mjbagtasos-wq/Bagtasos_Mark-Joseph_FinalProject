@@ -1,3 +1,9 @@
+"""Main entry point for the Smart Task Manager CLI application.
+
+This module contains the main execution loop that presents a menu to the user,
+handles input, and coordinates the TaskManager and Task classes.
+"""
+
 from task import Task
 from manager import TaskManager
 
@@ -12,7 +18,7 @@ def main():
 
             if choice == "1":
                 title = input("Task Title: ")
-                # Input Validation: Ensuring priority is an integer between 1-5 [cite: 105]
+                # Input Validation: Ensuring priority is an integer between 1-5
                 try:
                     priority = int(input("Priority (1-5): "))
                     if not (1 <= priority <= 5):

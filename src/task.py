@@ -1,3 +1,9 @@
+"""Task class representing a single to‑do item.
+
+This module defines the Task class with attributes for title, priority,
+deadline, and status. It also provides a string representation for CLI display.
+"""
+
 class Task:
     """Represents a single to-do item with priority and status."""
 
