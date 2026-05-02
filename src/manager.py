@@ -56,6 +56,5 @@ class TaskManager:
     def sort_tasks(self):
         """
         Algorithm: Sorts tasks by priority (Level 5 first).
-        Satisfies the 16pt Logic/Processing requirement.
         """
         self.tasks.sort(key=lambda x: x.priority, reverse=True)
