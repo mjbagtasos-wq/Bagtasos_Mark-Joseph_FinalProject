@@ -1,8 +1,7 @@
 # Smart Task & Priority Manager
 
 ## 📺 Project Explanation Video
-> **CRITICAL:** https://youtu.be/CXO2vIx7liU
-> *This video includes a 10–15 minute walkthrough of the application features, code explanation, and reflection.*
+> **Video link** https://youtu.be/CXO2vIx7liU
 
 ---
 
