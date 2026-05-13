@@ -53,7 +53,7 @@ Below are demonstrations of the CLI interface in action:
 
 | Feature | Screenshot |
 | :--- | :--- |
-| **Main Menu** | ![Main Menu](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/adabc7faeba18b98496e6510879cb655f5ccdb6b/screenshots/menu.png) |
+| **Main Menu** | ![Main Menu](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/screenshots/menu.png) |
 | **Sorted Task View** | ! |
 | **Input Validation** | ! |
 
