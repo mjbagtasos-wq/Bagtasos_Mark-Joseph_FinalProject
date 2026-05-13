@@ -22,8 +22,14 @@ Built as a Final Project for **Intermediate Programming (CCCS_ 103)**, it demons
 
 ---
 
-🛠️ Technical Implementation
-
+## 🛠️ Technical Implementation
+| Requirement | Implementation Detail |
+| :--- | :--- |
+| **OOP** | Defined a `Task` class in `task.py` to encapsulate title, priority, and status.  |
+| **Algorithm** | Implemented a descending sort algorithm in `manager.py` using lambda keys.  |
+| **Data Structure** | Utilized a Python **List** to store and manipulate `Task` objects in memory.  |
+| **Advanced Concept** | Implemented **Context Managers** (`__enter__` / `__exit__`) for safe file I/O.  |
+| **File Handling** | Uses the `csv` module to maintain a persistent database in `data/tasks.csv`.  |
 ---
 
 ## 📂 Project Structure
