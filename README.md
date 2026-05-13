@@ -56,6 +56,11 @@ Bagtasos_Mark-Joseph_FinalProject/
 │   └── task.py            # Task class definition (OOP)
 ├── .gitignore             # Prevents tracking of junk files
 └── README.md              # Project documentation
+```
 
 ---
 
+## ⚙️ Installation & Usage
+1. **Clone the Repository**: 
+   ```bash
+   git clone [https://github.com/yourusername/Bagtasos_Mark-Joseph_FinalProject.git](https://github.com/yourusername/Bagtasos_Mark-Joseph_FinalProject.git)
