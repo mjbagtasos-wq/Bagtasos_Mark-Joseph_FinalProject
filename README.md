@@ -64,3 +64,9 @@ Bagtasos_Mark-Joseph_FinalProject/
 1. **Clone the Repository**: 
    ```bash
    git clone [https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject.git](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject.git)
+2. **Navigate to the Directory**:
+   ```bash
+   cd Bagtasos_Mark-Joseph_FinalProject
+3. **Run the Application**:
+   ```bash
+   python src/main.py
