@@ -30,16 +30,6 @@ Built as a Final Project for **Intermediate Programming (CCCS_ 103)**, it demons
 | **Data Structure** | Utilized a Python **List** to store and manipulate `Task` objects in memory.  |
 | **Advanced Concept** | Implemented **Context Managers** (`__enter__` / `__exit__`) for safe file I/O.  |
 | **File Handling** | Uses the `csv` module to maintain a persistent database in `data/tasks.csv`.  |
----
-
-## 📸 Sample Usage (Screenshots) 
-Below are demonstrations of the CLI interface in action: 
-
-| Feature | Screenshot |
-| :--- | :--- |
-| **Main Menu** | ![Main Menu](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/dc6707cb5caafa819544e2c884011beeca05dc44/screenshots/menu.png) |
-| **Sorted Task View** | !![Sorted Task](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/1a9c75279f3634aac474ec1f45b1e43534051bb3/screenshots/sorted.png) |
-| **Input Validation** | ![Validate](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/ebea2954e7d23a7b9bb4e57b973c0b7ed387a58c/screenshots/validation.png) |
 
 ---
 
@@ -54,9 +44,24 @@ Bagtasos_Mark-Joseph_FinalProject/
 │   ├── main.py            # Entry point of the application
 │   ├── manager.py         # TaskManager logic & Context Manager
 │   └── task.py            # Task class definition (OOP)
+├── screenshots/
+│   ├── menu.png            
+│   ├── sorted.png         
+│   └── validation.png            
 ├── .gitignore             # Prevents tracking of junk files
 └── README.md              # Project documentation
 ```
+
+---
+
+## 📸 Sample Usage (Screenshots) 
+Below are demonstrations of the CLI interface in action: 
+
+| Feature | Screenshot |
+| :--- | :--- |
+| **Main Menu** | ![Main Menu](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/dc6707cb5caafa819544e2c884011beeca05dc44/screenshots/menu.png) |
+| **Sorted Task View** | !![Sorted Task](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/1a9c75279f3634aac474ec1f45b1e43534051bb3/screenshots/sorted.png) |
+| **Input Validation** | ![Validate](https://github.com/mjbagtasos-wq/Bagtasos_Mark-Joseph_FinalProject/blob/ebea2954e7d23a7b9bb4e57b973c0b7ed387a58c/screenshots/validation.png) |
 
 ---
 
