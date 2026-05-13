@@ -45,3 +45,16 @@ Bagtasos_Mark-Joseph_FinalProject/
 │   └── task.py            # Task class definition (OOP)
 ├── .gitignore             # Prevents tracking of junk files
 └── README.md              # Project documentation
+
+---
+
+## 📸 Sample Usage (Screenshots) 
+Below are demonstrations of the CLI interface in action: 
+
+| Feature | Screenshot |
+| :--- | :--- |
+| **Main Menu** | !screenshots/main_menu.png |
+| **Sorted Task View** | ! |
+| **Input Validation** | ! |
+
+---
