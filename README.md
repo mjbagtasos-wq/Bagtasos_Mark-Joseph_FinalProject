@@ -23,6 +23,10 @@ Built as a Final Project for **Intermediate Programming (CCCS_ 103)**, it demons
 
 ---
 
+🛠️ Technical Implementation
+
+---
+
 ## 📂 Project Structure
 The repository is organized according to professional standards to ensure modularity and clarity:
 
